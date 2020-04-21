@@ -47,9 +47,9 @@ def medir():
         mensaje1.place(x = 70,y =130)  
         mensaje3['text'] = "mensaje 1 de 3"
         mensaje3.place(x = 80, y = 200) 
-        mensaje4['text'] = "mensaje 2 de 3 "
+        #mensaje4['text'] = "mensaje 2 de 3 "
         mensaje4.place(x = 80 , y = 240)
-        #mensaje5['text'] = "mensaje 3 de 3 "
+        mensaje5['text'] = "mensaje 3 de 3 "
         mensaje5.place(x = 80, y = 280)
     elif(valor1<0.5):
         mensaje1.place_forget()
